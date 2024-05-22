@@ -1,19 +1,14 @@
 <script>
-    <p id="demo">this is javascript const info</p>
+    <p id="demo">this is javascript let info</p>
     /*
     they should be declared first before use 
-    they cannot be reassigned
+    they can be reassigned 
     cannot be redeclared
-    
     */
-    const pi=3.14;
-    /*
-    but this is not alllowed 
-    const pi;
-    pi=3.14;
-
-    */
- document.getElementById("demo").innerHTML=  pi;
+    let a=10;
+    let b=20;
+    let x=a+b;
+ document.getElementById("demo").innerHTML="the value is" + x;
  //here the result would be the value is 30
  /*
 but we can redeclare it in curly brackets and the value can be different
