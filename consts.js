@@ -6,6 +6,7 @@
     cannot be redeclared
     
     */
+    // fix the comment
     const pi=3.14;
     /*
     but this is not alllowed 
@@ -13,6 +14,7 @@
     pi=3.14;
 
     */
+    // fix the comment
  document.getElementById("demo").innerHTML=  pi;
  //here the result would be the value is 30
  /*
